@@ -1,0 +1,18 @@
+NOTE : 
+
+Ini adalah sistem versi local, yang dapat dijalankan pada localhost:8080. Untuk mengubah sistem ke alamat yang diinginkan, silakan ubah nilai variabel $baseURL pada file crud-bakso/app/Config/App.php. Ubah juga username dan password database pada file crud-bakso/.env menjadi sesuai konfigurasi MySQL anda. Disini saya menggunakan username 'root' dan password ''.
+
+
+
+
+PETUNJUK INSTALASI :
+
+- pastikan XAMPP (Apache dan MySQL) sudah terinstall
+- pastikan composer sudah terinstall
+- ekstrak file crud-bakso.zip
+- import file crud_bakso.sql kedalam MySQL
+- buka terminal/git bash pada direktori crud-bakso
+- jalankan perintah "composer install"
+- jalankan perintah "php spark serve"
+- buka link http://localhost:8080/ pada web browser
+- sistem sudah dapat digunakan
